@@ -36,7 +36,25 @@ cliente.on('chat', (target, ctx, message, self)=>{
         cliente.say(target, `Ahora mismo estoy jugando...`);
     }
 
+    if(message.trim() === "!rank"){
+        cliente.say(target, `https://las.op.gg/summoner/userName=snowmanclan`);
+    }
 
+    if(message.trim() === "!elo"){
+        cliente.say(target, `https://las.op.gg/summoner/userName=snowmanclan`);
+    }
+
+    if(message.trim() === "!opgg"){
+        cliente.say(target, `https://las.op.gg/summoner/userName=snowmanclan`);
+    }
+
+    if(message.trim() === "!league"){
+        cliente.say(target, `https://las.op.gg/summoner/userName=snowmanclan`);
+    }
+
+    if(message.trim() === "!twitter"){
+        cliente.say(target, `https://twitter.com/Snow_Man_Clan`);
+    }
 });
 
 
